@@ -24,14 +24,13 @@ public class Reverse_Word extends Transposition {
 				var = i;
 			}if(i >= text.length()-1) {
 				newpassword.append(" ");
-				System.out.println(i);
 				for(int cont = i ; cont > var ; cont--) {
 					newpassword.append(text.charAt(cont));
 				}
 				newpassword.deleteCharAt(0);
-				System.out.println(newpassword);
 			}
 		}
+		System.out.println(newpassword);
 	}
 }
 	
